@@ -39,6 +39,6 @@ if(window.location.pathname.indexOf('/debug/')<0){
 youtubeLink.addEventListener('click',()=>{window.open(youtubePath,'_top');})
 const youtubeIcon=document.createElement('img');
 youtubeIcon.classList="youtubeIcon"
-youtubeIcon.src="./youtube.png";
+youtubeIcon.src="/youtube.png";
 youtubeLink.appendChild(youtubeIcon);
 document.querySelector('body').appendChild(youtubeLink);}
