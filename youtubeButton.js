@@ -34,7 +34,7 @@ if(window.location.pathname.indexOf('/debug/')<0){
       }
   `;
   document.querySelector('head').appendChild(youtubeStyle);
-  const youtubePath="https://www.youtube.com/@CreativewizCoding/";
+  const youtubePath="https://www.youtube.com/@Creative_wiz/";
   const youtubeLink=document.createElement('a');youtubeLink.classList="youtubeLink"
 youtubeLink.addEventListener('click',()=>{window.open(youtubePath,'_top');})
 const youtubeIcon=document.createElement('img');
